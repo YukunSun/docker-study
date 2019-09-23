@@ -1,0 +1,4 @@
+FROM ubuntu:latest
+MAINTAINER 'sunyukun'
+RUN apt-get install -y git
+ENTRYPOINT ["git"]
